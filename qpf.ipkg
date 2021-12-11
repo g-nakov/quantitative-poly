@@ -1,0 +1,6 @@
+package qpf
+version = 0.1
+brief = "Quantitative polynomial functors and their initial algebras"
+
+
+depends = contrib
