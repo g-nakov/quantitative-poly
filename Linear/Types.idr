@@ -7,6 +7,10 @@ public export
 infixr 0 -<>
 
 public export
+void1 : Void -<> a
+void1 x impossible
+
+public export
 interface LBifunctor f where
   bimap : (a -<> c) -> (b -<> d) -> f a b -<> f c d
 
